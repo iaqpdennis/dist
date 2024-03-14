@@ -1,0 +1,1 @@
+import{Q as o,U as s,ag as r,W as e,ah as n}from"./index-2cc77167.js";const g=o("cms",{state:()=>({pages:[],page:null}),actions:{async getCustomPages(){try{const{data:{data:a}}=await s.get(r);this.pages=a}catch({response:a}){e(a)}},async getCustomPage(a){try{const{data:{data:t}}=await s.get(n(a));this.page=t}catch({response:t}){e(t)}}}});export{g as u};
